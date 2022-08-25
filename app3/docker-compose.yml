@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  nuxtapp1:
+   image: lanuma/nuxt-app
+   ports:
+    -  "3000:3000"
+  nuxtapp2:
+   image: lanuma/nuxt-app
+   ports:
+    -  "3001:3000"
+  nuxtapp3:
+   image: lanuma/nuxt-app
+   ports:
+    -  "3002:3000"
+  nuxtapp4:
+   image: lanuma/nuxt-app
+   ports:
+    -  "3003:3000"
+  nuxtapp5:
+   image: lanuma/nuxt-app
+   ports:
+    -  "3004:3000"
